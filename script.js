@@ -3,9 +3,9 @@ document.getElementById('verifyButton').addEventListener('click', function() {
     let isFibonacci = checkFibonacci(num);
     
     if (isFibonacci) {
-        document.getElementById('result').innerText = num + ' pertence à sequência de Fibonacci.';
+        document.getElementById('result').innerText = num + ' pertence à sequência Fibonacci.';
     } else {
-        document.getElementById('result').innerText = num + ' não pertence à sequência de Fibonacci.';
+        document.getElementById('result').innerText = num + ' não pertence à sequência Fibonacci.';
     }
 });
 
